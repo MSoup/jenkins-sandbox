@@ -5,6 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                eval 1+1
+                which python
             }
         }
         stage('Test') {
